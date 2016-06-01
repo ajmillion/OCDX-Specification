@@ -1,6 +1,6 @@
 # Open Community Data Exchange 
 
-The Open Community Data Exchange is an open standard. Guidelines for describing data about online communities.
+The Open Community Data Exchange is an open standard for describing data about online communities.
 
 In an effort to support tools and workflow for researchers and data providers to share their datasets with the wider community, we devised a minimum set of metadata fields that would be important to quickly understand a dataset and work with it.
 
