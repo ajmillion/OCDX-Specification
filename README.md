@@ -4,49 +4,18 @@
 
 The OCDX community supports an open standard for describing data about online communities, as well as the support tools and workflow patterns for researchers and data providers to share their datasets with the wider community. The OCDX community aims to provide the lowest barriers to contributing/sharing data.We welcome your input, suggesting fields information for inclusion in the OCDX specification. 
 
+## Licenses
 
-OCDX Open Standard Required Information
+### Donated Data
 
-Administration (A)
+All donated data will be licensed under the Open Database License (ODbL), available at: http://opendatacommons.org/licenses/odbl/summary/. In accord with the ODbL license, users of the data will be able:
+- To Share: To copy, distribute and use the database.
+- To Create: To produce works from the database.
+- To Adapt: To modify, transform and build upon the database.
+As long as you:
+- Attribute: You must attribute any public use of the database, or works produced from the database, in the manner specified in the ODbL. For any use or redistribution of the database, or works produced from it, you must make clear to others the license of the database and keep intact any notices on the original database.
+- Share-Alike: If you publicly use any adapted version of this database, or works produced from an adapted database, you must also offer that adapted database under the ODbL.
+- Keep open: If you redistribute the database, or an adapted version of it, then you may use technological measures that restrict the work (such as DRM) as long as you also redistribute a version without such measures.
 
-A-1. Curator of dataset (person or organization who authored/created/gathered/whatever’ed the data in the first place)
+Open source versions of the OCDX infrastructure and tooling and distribute them under the MIT permissive license. Full legal text of the MIT license is available at: https://opensource.org/licenses/MIT
 
-A-2. Who can people contact about the dataset
-  A-2a. Name
-  A-2b. Email
-A-3. How should the dataset be cited
-A-4. What papers/products have been produced based on the dataset (if none, enter "none yet")
-Community (C)
-
-C-1. Name
-C-2. URL
-C-3. Size of community
-C-4. Description of community
-Ethics (E)
-
-E-1. Does the dataset include human subjects data, broadly defined?
-E-2. Context of collection (e.g., did human subjects know the data was being collected for research?)
-E-3. Informed consent collected [Y, N]
-E-3a. How?
-E-3a. For what data uses?
-E-4. De-identification steps taken
-E-5. Contains sensitive data [Y, N]
-Data Set (DS)
-
-DS-1. “original” use of the dataset (e.g., research questions addressed, unit(s) of analysis)
-DS-2. URL of dataset
-DS-3. Format (of the files themselves)
-DS-4. Size of the files (magnitude - e.g., MBs, GBs, TBs)
-DS-5. N of X (for each type of thing included users, tweets, chat entries, whatever)
-DS-6. Processing
-DS-6a. “raw” from source
-DS-6b. processed by someone
-DS-6c. Name of processor
-DS-6d. link to processing script or workflow description
-MIOCS Optional Information
-
-A-5. License under which the data can be used
-DS-7. Version of the data set
-DS-8. How the data was originally collected (e.g., which Twitter API did you use)
-
-Contact [Kristen Schuster](mailto:schuster.kristen@gmail.com) with questions.
