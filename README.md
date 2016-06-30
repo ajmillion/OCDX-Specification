@@ -6,6 +6,10 @@ The OCDX community supports an open standard for describing data about online co
 
 ## Licenses
 
+### OCDX Infrastructure 
+
+Open source versions of the OCDX infrastructure and tooling and distribute them under the MIT permissive license. Full legal text of the MIT license is available at: https://opensource.org/licenses/MIT
+
 ### Donated Data
 
 All donated data will be licensed under the Open Database License (ODbL), available at: http://opendatacommons.org/licenses/odbl/summary/. In accord with the ODbL license, users of the data will be able:
@@ -17,5 +21,5 @@ As long as you:
 - Share-Alike: If you publicly use any adapted version of this database, or works produced from an adapted database, you must also offer that adapted database under the ODbL.
 - Keep open: If you redistribute the database, or an adapted version of it, then you may use technological measures that restrict the work (such as DRM) as long as you also redistribute a version without such measures.
 
-Open source versions of the OCDX infrastructure and tooling and distribute them under the MIT permissive license. Full legal text of the MIT license is available at: https://opensource.org/licenses/MIT
+
 
