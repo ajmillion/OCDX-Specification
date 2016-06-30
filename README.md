@@ -1,15 +1,11 @@
-# Open Community Data Exchange 
+# Open Community Data Exchange (OCDX)
 
-The Open Community Data Exchange is an open standard for describing data about online communities.
+## Summary
 
-In an effort to support tools and workflow for researchers and data providers to share their datasets with the wider community, we devised a minimum set of metadata fields that would be important to quickly understand a dataset and work with it.
+The OCDX community supports an open standard for describing data about online communities, as well as the support tools and workflow patterns for researchers and data providers to share their datasets with the wider community. The OCDX community aims to provide the lowest barriers to contributing/sharing data.We welcome your input, suggesting fields information for inclusion in the OCDX specification. 
 
-We stress the word "minimum" here, seeking the lowest barrier to contributing/sharing data with the wider [OCDF](http://datafactories.org) community.
 
-We welcome your input. Please use [Issues](https://github.com/libbyh/miocs/issues) to suggest information for inclusion in the MIOCS or even the extensible metadata. You should also submit pull requests if you feel comfortable editing the docs directly.
-
-Minimum Information for Online Community Data Standards (MIOCS)
-MIOCS Required Information
+OCDX Open Standard Required Information
 
 Administration (A)
 
