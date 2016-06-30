@@ -6,7 +6,7 @@ The OCDX community supports an open standard for describing data about online co
 
 ## Contributors
 
-Libby Hemphil, Sean Goggins, Matt Germonprez, AJ Million, Kristen Schuster, Susan Winter, Andrea Wiggins, Matthew J. Bietz, Arfon Smith, Aaron Halfaker, Megan Squire, Jeff Hemsley, Bill Rand, ...
+Libby Hemphil, Sean Goggins, Matt Germonprez, AJ Million, Kristen Schuster, Susan Winter, Andrea Wiggins, Matthew J. Bietz, Arfon Smith, Aaron Halfaker, Megan Squire, Jeff Hemsley, Bill Rand, June Ahn, Michele Avital, Kevin Crowston, Brian Fitzgerald, ...
 
 ## Licenses
 
