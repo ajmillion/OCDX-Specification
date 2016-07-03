@@ -22,13 +22,19 @@ manifests
 		abstract - Summary of the dataset. Should include dates for creation/capture, institutional affiliations, motivations for data collection, and magnitude of the data. 
 		(is required; is not repeatable)
 		
-		"dates": {
-			"date": {
-				"date": "", #Dates associated with the dataset enter as yyyy-dd-mm. Is required; is repeatable. If unavailable enter No Assertion.
-				"label": "" #Indicate date type, choose one: start, end, retrieved, created. s required. Is repeatable. If unavailable enter No Assertion.
-"privacyEthics": {
-	"oversight": { #Was institutional oversight applied to data collection and/or analysis? Is required. Is not repeatable.
-		"label": "" #Indicates oversight type, choose one: IRB, REB, REC, Not required, Other, No Assertion. 
+		dates
+			date - dates associated with the dataset
+			(is required; is repeatable)
+			label - Date type, choose one: start, end, retrieved, created
+			(is required; is repeatable)
+			
+	privacyEthics
+		oversight - Was institutional oversight applied to data collection and/or analysis? 
+		(Is required. Is not repeatable)
+		
+		label - Oversight type, choose one: IRB, REB, REC
+		(Not required)
+		
 	"informedConsent": "", #Indicate whether informed consent obtained or wether participants were notified of their inclusion in the dataset. Is required; is not repeatable. If unknown state No Assertion.
 			"anonymizedData": { #Indicate whether anything has been excluded, removed or altered in the dataset in order to protect the identities, integrity and rights of participants? Is required; Is repeatable.
 				"label": "" #Choose one, repeat if necessary: names anonymized, names excluded, date of birth anonymized, date of death anonymized, identifying numbers anonymized, race and ethcnitiy categories anonymized, religious affiliation anonymized, health and wellness data anonymized, location or GPS coordinates anonymized, other, No Assertion.
