@@ -1,17 +1,20 @@
 manifests
 
-manifest
+	manifest
 	
-	standardVersions": "", #Declaration of start for a record using ocdxManifest schema v.1.
+		standardVersions": "", #Declaration of start for a record using ocdxManifest schema v.1.
 	
-	id": "", #Unique identifier for manifest; is required; is not repeatable; URL or URI for dataset. 
+		id": "", #Unique identifier for manifest; is required; is not repeatable; URL or URI for dataset. 
 	
-	creator": "", #Name of person creating manifest; is required; is not repeatable enter as First Name, Last Name. If unavailable enter No Assertion.
+		creator": "", #Name of person creating manifest; is required; is not repeatable enter as First Name, Last Name. If unavailable enter No Assertion.
 	
-	dateCreated": "", #Date that manifest is created; is required; is not repeatable enter as yyyy-dd-mm.
-	"comment": "", #Details or comments about creator of manifest or the manifest itself; is not required; is not repeatable.
-	"researchObject": {
-		"title": "", #A one sentence title for the dataset. If a title is not given, provide one sentence that describes the datasets contents. Whenever possible copy from source. Is required; is not repeatable. If unavailable enter No Assertion. 
+		dateCreated": "", #Date that manifest is created; is required; is not repeatable enter as yyyy-dd-mm.
+	
+		comment": "", #Details or comments about creator of manifest or the manifest itself; is not required; is not repeatable.
+	
+		researchObject": {
+			
+			title": "", #A one sentence title for the dataset. If a title is not given, provide one sentence that describes the datasets contents. Whenever possible copy from source. Is required; is not repeatable. If unavailable enter No Assertion. 
 		"abstract": "", #A complete summary of the dataset, which should include dates for creation/capture, institutional affiliations, motivations for data collection, and magnitude of the data (how many people, events, rows, etc.). Is required; is not repeatable. Free text. If unavailable enter No Assertion.
 		"dates": {
 			"date": {
