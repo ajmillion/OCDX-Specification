@@ -5,11 +5,13 @@ manifests
 		standardVersions - Declaration of start for a record using OCDX-Specification v.1.3
 	
 		id - Unique identifier for manifest
-		is required; is not repeatable
+		(is required; is not repeatable)
 	
-		creator - Name of person creating manifest; is required; is not repeatable
+		creator - Name of person creating manifest
+		(is required; is not repeatable)
 	
-		dateCreated": "", #Date that manifest is created; is required; is not repeatable enter as yyyy-dd-mm.
+		dateCreated - Date that manifest is created
+		(is required; is not repeatable)
 	
 		comment": "", #Details or comments about creator of manifest or the manifest itself; is not required; is not repeatable.
 	
