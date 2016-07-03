@@ -13,12 +13,17 @@ manifests
 		dateCreated - Date that manifest is created
 		(is required; is not repeatable)
 	
-		comment": "", #Details or comments about creator of manifest or the manifest itself; is not required; is not repeatable.
+		comment - Details or comments about creator of manifest or the manifest itself
+		(is not required; is not repeatable)
 	
-		researchObject": {
+	researchObject
 			
-			title": "", #A one sentence title for the dataset. If a title is not given, provide one sentence that describes the datasets contents. Whenever possible copy from source. Is required; is not repeatable. If unavailable enter No Assertion. 
-		"abstract": "", #A complete summary of the dataset, which should include dates for creation/capture, institutional affiliations, motivations for data collection, and magnitude of the data (how many people, events, rows, etc.). Is required; is not repeatable. Free text. If unavailable enter No Assertion.
+		title - One sentence title for the dataset. 
+		(is required; is not repeatable)
+		
+		abstract - Summary of the dataset. Should include dates for creation/capture, institutional affiliations, motivations for data collection, and magnitude of the data. 
+		(is required; is not repeatable)
+		
 		"dates": {
 			"date": {
 				"date": "", #Dates associated with the dataset enter as yyyy-dd-mm. Is required; is repeatable. If unavailable enter No Assertion.
