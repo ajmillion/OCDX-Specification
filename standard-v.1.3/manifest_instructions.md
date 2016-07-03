@@ -1,5 +1,5 @@
-{
-	"manifests": {
+"manifests":
+
 		"manifest": {
 			"standardVersions": "", #Declaration of start for a record using ocdxManifest schema v.1.
 			"id": "", #Unique identifier for manifest; is required; is not repeatable; URL or URI for dataset. 
