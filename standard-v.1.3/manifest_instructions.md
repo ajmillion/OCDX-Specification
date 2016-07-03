@@ -1,27 +1,22 @@
 "manifests":
 
-		"manifest": {
-			"standardVersions": "", #Declaration of start for a record using ocdxManifest schema v.1.
-			"id": "", #Unique identifier for manifest; is required; is not repeatable; URL or URI for dataset. 
-			"creator": "", #Name of person creating manifest; is required; is not repeatable enter as First Name, Last Name. If unavailable enter No Assertion.
-			"dateCreated": "", #Date that manifest is created; is required; is not repeatable enter as yyyy-dd-mm.
-			"comment": "", #Details or comments about creator of manifest or the manifest itself; is not required; is not repeatable.
-			"researchObject": {
-				"title": "", #A one sentence title for the dataset. If a title is not given, provide one sentence that describes the datasets contents. Whenever possible copy from source. Is required; is not repeatable. If unavailable enter No Assertion. 
-				"abstract": "", #A complete summary of the dataset, which should include dates for creation/capture, institutional affiliations, motivations for data collection, and magnitude of the data (how many people, events, rows, etc.). Is required; is not repeatable. Free text. If unavailable enter No Assertion.
-				"dates": {
-					"date": {
-						"date": "", #Dates associated with the dataset enter as yyyy-dd-mm. Is required; is repeatable. If unavailable enter No Assertion.
-						"label": "" #Indicate date type, choose one: start, end, retrieved, created. s required. Is repeatable. If unavailable enter No Assertion.
-					}
-				}
-			},
-			"privacyEthics": {
-				"oversight": { #Was institutional oversight applied to data collection and/or analysis? Is required. Is not repeatable.
-					"label": "" #Indicates oversight type, choose one: IRB, REB, REC, Not required, Other, No Assertion. 
-				}
-			},
-			"informedConsent": "", #Indicate whether informed consent obtained or wether participants were notified of their inclusion in the dataset. Is required; is not repeatable. If unknown state No Assertion.
+"manifest"
+	"standardVersions": "", #Declaration of start for a record using ocdxManifest schema v.1.
+	"id": "", #Unique identifier for manifest; is required; is not repeatable; URL or URI for dataset. 
+	"creator": "", #Name of person creating manifest; is required; is not repeatable enter as First Name, Last Name. If unavailable enter No Assertion.
+	"dateCreated": "", #Date that manifest is created; is required; is not repeatable enter as yyyy-dd-mm.
+	"comment": "", #Details or comments about creator of manifest or the manifest itself; is not required; is not repeatable.
+	"researchObject": {
+		"title": "", #A one sentence title for the dataset. If a title is not given, provide one sentence that describes the datasets contents. Whenever possible copy from source. Is required; is not repeatable. If unavailable enter No Assertion. 
+		"abstract": "", #A complete summary of the dataset, which should include dates for creation/capture, institutional affiliations, motivations for data collection, and magnitude of the data (how many people, events, rows, etc.). Is required; is not repeatable. Free text. If unavailable enter No Assertion.
+		"dates": {
+			"date": {
+				"date": "", #Dates associated with the dataset enter as yyyy-dd-mm. Is required; is repeatable. If unavailable enter No Assertion.
+				"label": "" #Indicate date type, choose one: start, end, retrieved, created. s required. Is repeatable. If unavailable enter No Assertion.
+"privacyEthics": {
+	"oversight": { #Was institutional oversight applied to data collection and/or analysis? Is required. Is not repeatable.
+		"label": "" #Indicates oversight type, choose one: IRB, REB, REC, Not required, Other, No Assertion. 
+	"informedConsent": "", #Indicate whether informed consent obtained or wether participants were notified of their inclusion in the dataset. Is required; is not repeatable. If unknown state No Assertion.
 			"anonymizedData": { #Indicate whether anything has been excluded, removed or altered in the dataset in order to protect the identities, integrity and rights of participants? Is required; Is repeatable.
 				"label": "" #Choose one, repeat if necessary: names anonymized, names excluded, date of birth anonymized, date of death anonymized, identifying numbers anonymized, race and ethcnitiy categories anonymized, religious affiliation anonymized, health and wellness data anonymized, location or GPS coordinates anonymized, other, No Assertion.
 			},
