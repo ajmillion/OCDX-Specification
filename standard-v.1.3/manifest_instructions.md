@@ -2,11 +2,12 @@ manifests
 
 	manifest
 	
-		standardVersions": "", #Declaration of start for a record using ocdxManifest schema v.1.
+		standardVersions - Declaration of start for a record using OCDX-Specification v.1.3
 	
-		id": "", #Unique identifier for manifest; is required; is not repeatable; URL or URI for dataset. 
+		id - Unique identifier for manifest
+		is required; is not repeatable
 	
-		creator": "", #Name of person creating manifest; is required; is not repeatable enter as First Name, Last Name. If unavailable enter No Assertion.
+		creator - Name of person creating manifest; is required; is not repeatable
 	
 		dateCreated": "", #Date that manifest is created; is required; is not repeatable enter as yyyy-dd-mm.
 	
