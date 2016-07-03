@@ -1,7 +1,6 @@
 manifests
 
-manifest
-	
+	manifest
 		standardVersions - Declaration of start for a record using OCDX-Specification v.1.3
 	
 		id - Unique identifier for manifest
@@ -17,7 +16,6 @@ manifest
 		(is not required; is not repeatable)
 	
 	researchObject
-			
 		title - One sentence title for the dataset. 
 		(is required; is not repeatable)
 		
