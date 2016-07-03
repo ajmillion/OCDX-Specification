@@ -28,6 +28,17 @@ manifests
 			label - Date type, choose one: start, end, retrieved, created
 			(is required; is repeatable)
 			
+		creators
+		
+			name - Person or organization with a role in producing the dataset
+			(is required; is repeatable)
+			role - Role played by a creator in creating the datase
+			(is not required; is not repeatable)
+			label - Corporate sponsor; Grant funder; Primary investigator; Other
+			(is not required; is repeatable)
+			contact - Creator contact information
+			(is required; is repeatable) 
+			
 	privacyEthics
 		oversight - Was institutional oversight applied to data collection and/or analysis? 
 		(is required. Is not repeatable)
@@ -46,47 +57,46 @@ manifests
 			privacyConsiderations - Any special considerations that need to be taken in order to ensure use or re-use of a dataset maintains the rights and privacy of subjects? 
 			(is required; is not repeatable)
 			
-		},
-		"provenance": {
-			"narrative": "" #Describes the workflow involved in collecting and filtering (or cleaning) the data. This could be a link to someplace that describes the data provenance. Recommended information includes how the data was collected, from where, by whom, and using what applications/scripts/etc. Is not required; is not repeatable. If unknown, unclear or not applicable write No Assertion. 
-		},
-		"publications": { #Paper citation(s) if applicable. Is not required. Is repeatable. Use APA 6th edition. If unknown, unclear or not applicable write No Assertion. 
-			"publication": ""
-		},
-		"locations": {
-			"location": { #Provide a link to where the data can be retrieved from. Is not required; is repeatable. If unknown, unclear or not applicable write No Assertion. 
-				"url": {},
-				"comment": {} #Statement about the location - for instance, where/how can I get the actual dataset if not from a URL? Not required; not repeatable. If unknown, unclear or not applicable write No Assertion.
-			}
-		},
-		"files": { #Container for attributes below. The file(s) could contain either data, or, it could include a file that contains a URL to a dynamic, ongoing dataset. Both types of data files could exist in a dataset. Is required; is repeatable. If unknown, unclear or not applicable write No Assertion.
-			"file": {
-				"name": "" #Name of each file in the manifest. Is required; is not repeatable. Transcribe from source. If unknown, unclear or not applicable write No Assertion. 
-			},
-			"format": "", #File formats researchers will download in order to access the datasets. Is required; is not repeatable. Transcribe from source. If unknown, unclear or not applicable write No Assertion. 
-			"abstract": "",  #After downloading and opening files, what will a person be looking at? Text, integers, photos, visualizations of networks etc.? Is not required; is not repeatable. If unknown, unclear or not applicable write No Assertion. 
-			"size": "", #Size of disk on file. Is required; is not repeatable. Use international system of quantities file size (written as a number) type. If unknown, unclear or not applicable write No Assertion.
-			"url": "", #URL to retrieve dataset. Is required. Is not repeatable. If unknown, unclear or not applicable write No Assertion. 
-			"checksum": "" #A hash of the file contents. Is required; is not repeatable. If unknown, unclear write No Assertion. 
-		},
-		"permissions": "" #Are there any notices or statements that limit access and use of datasets stored in the repository or host site? Are there any steps a researcher should take to gain access to the data source? Are there any types of projects or institutions that will not be permitted to use the data source? Is not required. Is not repeatable. If unknown, unclear or not applicable write No Assertion. 
-	},
-	"dates": {
-		"date": { 
-			"date": "" #The date that the dataset was extracted, retrieved or produced. Is not required; is not repeatable. Format: yyy-mm-dd. 
-		},
-		"label": "" #Date type: Start, end, retrieved, No Assertion.
-	},
-	"creators": { #Person or persons responsible for the creation of the dataset. Is required; is repeatable. If unknown, unclear or not applicable write No Assertion. 
-		"creator": {
-			"name": "", #Person or organization with a role in producing the dataset. Is required. Is repeatable. Enter as First name Last name. If unknown, unclear or not applicable write No Assertion. 
-			"role": { #The role played by a creator in creating the dataset. Is not required. Is not repeatable. If unknown, unclear or not applicable write No Assertion. 
-				"label": "" #Corporate sponsor; Grant funder; Primary investigator; Other, No Assertion.
-			}
-		},
-		"type": {
-			"label": "" #Educational institutions; Government; NGO; Individual; Private for profit entity, No Assertion.
-		},
-		"contact": "" #How to contact the creator. Is required; is repeatable. If unknown, unclear or not applicable write No Assertion.
-	}
-}
+		provenance
+			narrative - Workflow involved in collecting and filtering (or cleaning) the data. Recommended information includes how the data was collected, from where, by whom, and using what applications/scripts/etc
+			(is not required; is not repeatable) 
+			
+		publications - Paper citations
+		(is not required; is repeatable)
+		
+		locations
+			location - URL to where the data can be retrieved
+			(is not required; is repeatable)
+			
+			comment
+			(is not required; is not repeatable)
+				
+	files - Container for data. It could include a file that contains a URL to a dynamic, ongoing dataset. Both types of data files could exist in a dataset
+		(is required; is repeatable)
+			name - Name of each file in the dataset 
+			(is required; is not repeatable)
+			
+			format - File type
+			(is required; is not repeatable)
+			
+			abstract - Decription of file
+			(is not required; is not repeatable)
+			
+			size - Size of disk on file
+			(is required; is not repeatable)
+			
+			url - URL to file
+			(is required; is not repeatable)
+			
+			checksum - Hash of the file contents
+			(is required; is not repeatable) 
+			 
+			permissions - Notices or statements that limit access and use of file
+			(is not required; is not repeatable) 
+			
+			dates
+				date - The date that the file was extracted, retrieved or produced
+				(is not required; is not repeatable)
+				
+				label - Date type: Start, end, retrieved
+				(is not required; is not repeatable)
