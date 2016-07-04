@@ -29,6 +29,7 @@ Uniquely identify the manifest so that we don't confuse it with others and can r
 string
 
 ##### Example
+id: 
 
 ## creator
 ##### Definition and Purpose
@@ -86,89 +87,89 @@ Container - Children will have specific data formats
 ##### Example
 No example as this is a container for specific information
 
-### researchObject::creators
-##### Definition and Purpose
-A container for information about the creators of the research object
+  ### researchObject::creators
+  ##### Definition and Purpose
+  A container for information about the creators of the research object
 
-##### Cardinality
-* not required
-* repeatable (meaning you can provide more than one contact)
+  ##### Cardinality
+  * not required
+  * repeatable (meaning you can provide more than one contact)
 
-##### Data Format
-Container - children will have specific data formats
+  ##### Data Format
+  Container - children will have specific data formats
 
-##### Example
-No example as this is a container for specific information
+  ##### Example
+  No example as this is a container for specific information
 
-#### researchObject::creators::name
-##### Definition and Purpose
-Name of the person or persons responsible for creating the files. Must include at least one human being or beings in order to provide a point of contact for support if needed.
+   #### researchObject::creators::name
+   ##### Definition and Purpose
+   Name of the person or persons responsible for creating the files. Must include at least one human being or beings in order to provide a point of contact for support if needed.
 
-##### Cardinality
-* required
-* not repeatable
+   ##### Cardinality
+   * required
+   * not repeatable
 
-##### Data Format
-string, First Name Last Name
+   ##### Data Format
+   string, First Name Last Name
 
-##### Example
-researchObject::creators::name:
+   ##### Example
+   researchObject::creators::name:
 
-## researchObject::creators::email
-##### Definition and Purpose
-Provides a point of contact in case assistance is needed. May be an individual email address or mailing list. 
+   #### researchObject::creators::email
+   ##### Definition and Purpose
+   Provides a point of contact in case assistance is needed. May be an individual email address or mailing list. 
 
-##### Cardinality
-* required
-* not repeatable
+   ##### Cardinality
+   * required
+   * not repeatable
 
-##### Data Format
-string
+   ##### Data Format
+   string
 
-##### Example
-researchObject::creators::email:
+   ##### Example
+   researchObject::creators::email:
 
-### researchObject::abstract
-##### Definition and Purpose
-A complete summary of the dataset which should include institutional affiliations, motivations for data collection, and magnitude of the data (e.g., how many people, events, rows).
+  ### researchObject::abstract
+  ##### Definition and Purpose
+  A complete summary of the dataset which should include institutional affiliations, motivations for data collection, and magnitude of the data (e.g., how many people, events, rows).
 
-##### Cardinality
-* required
-* not repeatable
+  ##### Cardinality
+  * required
+  * not repeatable
 
-##### Data Format
-string
+  ##### Data Format
+  string
 
-##### Example
-researchObject::abstract: The Teahouse corpus is aset of questions asked at the Wikipedia Teahouse, a peer support forum for new Wikipedia editors. This corpus contains data from its first two years of operation.
+  ##### Example
+  researchObject::abstract: The Teahouse corpus is aset of questions asked at the Wikipedia Teahouse, a peer support forum for new Wikipedia editors. This corpus contains data from its first two years of operation.
 
-### researchObject::title
-##### Definition and Purpose
+  ### researchObject::title
+  ##### Definition and Purpose
 Give the stuff you're sharing a name. This will be used for search purposes, so choose terms appropriately (i.e., be more descriptive than cute).
 
-##### Cardinality
-* required
-* not repeatable
+  ##### Cardinality
+  * required
+  * not repeatable
 
-##### Data Format
-string
+  ##### Data Format
+  string
 
-##### Example
-researchObject::title: Data Sets of Insults, Gender Stereotypes, Double Entendres in FLOSS Communication
+  ##### Example
+  researchObject::title: Data Sets of Insults, Gender Stereotypes, Double Entendres in FLOSS Communication
 
-## researchObject::dates
-##### Definition and Purpose
-Container for dates where dates are times relevant to the contents, creation, retrieval of the dataset this manifest describes.
+  ## researchObject::dates
+  ##### Definition and Purpose
+  Container for dates where dates are times relevant to the contents, creation, retrieval of the dataset this manifest describes.
 
-##### Cardinality
-* not required
-* not repeatable
+  ##### Cardinality
+  * not required
+  * not repeatable
 
-##### Data Format
-Container - children will have specific data formats
+  ##### Data Format
+  Container - children will have specific data formats
 
-##### Example
-researchObject::dates:
+  ##### Example
+  researchObject::dates:
 
 ## researchObject::dates::datasetTimeInterval
 ##### Definition and Purpose
