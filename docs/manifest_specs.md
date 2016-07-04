@@ -87,8 +87,8 @@ Container - Children will have specific data formats
 ##### Example
 No example as this is a container for specific information
 
-  ### researchObject::creators
-  ##### Definition and Purpose
+ ### researchObject::creators
+##### Definition and Purpose
   A container for information about the creators of the research object
 
   ##### Cardinality
