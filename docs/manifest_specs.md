@@ -1,20 +1,20 @@
-# OCDX Data Manifest Specifications
+# OCDX Manifest Specifications
 __Version: 1.4__
 
 This document describes the properties of an OCDX manifest. For each property, we describe its definition and purpose, cardinality, and format. We currently provide one [complete example](sampleCompletedManifest.json).
 
 ## standardsVersion
-#### Definition and Purpose
+##### Definition and Purpose
 Defines which manifest standard this manifest is following. This field is machine-generated.
 
-#### Cardinality
+##### Cardinality
 * required
 * not repeatable
 
-#### Data Format
+##### Data Format
 string 
 
-#### Example
+##### Example
 standardsVersion: v1.4
 
 ## id
