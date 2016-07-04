@@ -1,7 +1,7 @@
 # OCDX Manifest Specifications
 __Version: 1.4__
 
-This document describes the properties of an OCDX manifest. For each property, we describe its definition and purpose, cardinality, and format. We currently provide one [complete example](sampleCompletedManifest.json).
+This document describes the properties of an OCDX manifest. Eescribe are property definition and purpose, cardinality, format, and an example. We currently provide one [complete example](sampleCompletedManifest.json).
 
 ## standardsVersion
 ##### Definition and Purpose
@@ -26,7 +26,9 @@ Uniquely identify the manifest so that we don't confuse it with others and can r
 * not repeatable
 
 ##### Data Format
-TBD
+string
+
+##### Example
 
 ## creator
 ##### Definition and Purpose
@@ -39,7 +41,8 @@ Name the person or tool who is creating this manifest so that we know who or how
 ##### Data Format
 string 
 
-* Example: Megan Squire
+##### Example
+creator: Megan Squire
 
 ## dateCreated
 ##### Definition and Purpose
@@ -52,7 +55,8 @@ Date the manifest was created.
 ##### Data Format
 [ISO 8601 yyyy-mm-dd](https://en.wikipedia.org/wiki/ISO_8601)
  
-* Example: 2016-05-24
+##### Example 
+dateCreated: 2016-05-24
 
 ## comment
 ##### Definition and Purpose
@@ -65,6 +69,9 @@ Any comments on the creation of the manifest. This is where you can tell us more
 ##### Data Format
 string
 
+##### Example
+comment: 
+
 ## researchObject
 ##### Definition and Purpose
 A container for information about the dataset you are describing. We call it a "research object" because you will likely use it to do your research and it may contain a variety of things such as data files, scripts for processing data, and maybe, if you're lucky, documentation.
@@ -74,11 +81,14 @@ A container for information about the dataset you are describing. We call it a "
 * not repeatable
 
 ### Data Format
-just a container - children will have specific data formats
+Container - Children will have specific data formats
 
-## researchObject: creators
+##### Example
+researchObject: 
+
+### researchObject::creators
 ##### Definition and Purpose
-A container for information about the creator(s) of the research object - who put all this data together?
+A container for information about the creators of the research object
 
 ##### Cardinality
 * not required
@@ -86,6 +96,9 @@ A container for information about the creator(s) of the research object - who pu
 
 ##### Data Format
 just a container - children will have specific data formats
+
+##### Example
+researchObject::creators: 
 
 ## researchObject: creators: name
 ##### Definition and Purpose
