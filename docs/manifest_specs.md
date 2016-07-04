@@ -37,7 +37,7 @@ Name the person or tool who is creating this manifest so that we know who or how
 ##### Cardinality
 * required
 * not repeatable
- 
+
 ##### Data Format
 string 
 
@@ -80,11 +80,11 @@ A container for information about the dataset you are describing. We call it a "
 * required
 * not repeatable
 
-### Data Format
+##### Data Format
 Container - Children will have specific data formats
 
 ##### Example
-researchObject: 
+No example as this is a container for specific information
 
 ### researchObject::creators
 ##### Definition and Purpose
@@ -95,12 +95,12 @@ A container for information about the creators of the research object
 * repeatable (meaning you can provide more than one contact)
 
 ##### Data Format
-just a container - children will have specific data formats
+Container - children will have specific data formats
 
 ##### Example
-researchObject::creators: 
+No example as this is a container for specific information
 
-## researchObject: creators: name
+#### researchObject::creators::name
 ##### Definition and Purpose
 Name of the person or persons responsible for creating the files. Must include at least one human being or beings in order to provide a point of contact for support if needed.
 
@@ -111,7 +111,10 @@ Name of the person or persons responsible for creating the files. Must include a
 ##### Data Format
 string, First Name Last Name
 
-## researchObject: creators: email
+##### Example
+researchObject::creators::name:
+
+## researchObject::creators::email
 ##### Definition and Purpose
 Provides a point of contact in case assistance is needed. May be an individual email address or mailing list. 
 
@@ -120,11 +123,14 @@ Provides a point of contact in case assistance is needed. May be an individual e
 * not repeatable
 
 ##### Data Format
-string, email
+string
 
-## researchObject: abstract
+##### Example
+researchObject::creators::email:
+
+### researchObject::abstract
 ##### Definition and Purpose
-A complete summary of the dataset which should include institutional affiliations, motivations for data collection, and magnitude of the data (how many people, events, rows, etc.).
+A complete summary of the dataset which should include institutional affiliations, motivations for data collection, and magnitude of the data (e.g., how many people, events, rows).
 
 ##### Cardinality
 * required
@@ -133,9 +139,10 @@ A complete summary of the dataset which should include institutional affiliation
 ##### Data Format
 string
 
-* Example: The Teahouse corpus is aset of questions asked at the Wikipedia Teahouse, a peer support forum for new Wikipedia editors. This corpus contains data from its first two years of operation.
+##### Example
+researchObject::abstract: The Teahouse corpus is aset of questions asked at the Wikipedia Teahouse, a peer support forum for new Wikipedia editors. This corpus contains data from its first two years of operation.
 
-## researchObject: title
+### researchObject::title
 ##### Definition and Purpose
 Give the stuff you're sharing a name. This will be used for search purposes, so choose terms appropriately (i.e., be more descriptive than cute).
 
@@ -146,9 +153,10 @@ Give the stuff you're sharing a name. This will be used for search purposes, so 
 ##### Data Format
 string
 
-* Example: Data Sets of Insults, Gender Stereotypes, Double Entendres in FLOSS Communication)
+##### Example
+researchObject::title: Data Sets of Insults, Gender Stereotypes, Double Entendres in FLOSS Communication
 
-## researchObject: dates
+## researchObject::dates
 ##### Definition and Purpose
 Container for dates where dates are times relevant to the contents, creation, retrieval of the dataset this manifest describes.
 
@@ -157,13 +165,14 @@ Container for dates where dates are times relevant to the contents, creation, re
 * not repeatable
 
 ##### Data Format
-just a container - children will have specific data formats
+Container - children will have specific data formats
 
-## researchObject: dates: datasetTimeInterval
+##### Example
+researchObject::dates:
+
+## researchObject::dates::datasetTimeInterval
 ##### Definition and Purpose
 The start and end times of the data are useful for people searching for specific time periods, and they help us know what period this data actually covers.
-
-##### Example: For a Twitter dataset, the earliest and latest dates represented in the dataset. So, the time the oldest tweet was posted, and the time the newest tweet was posted.
 
 ##### Cardinality
 * not required 
@@ -172,6 +181,8 @@ The start and end times of the data are useful for people searching for specific
 ##### Data Format
 [ISO 8601 Intervals](https://en.wikipedia.org/wiki/ISO_8601)
 yyyy-mm-dd/yyyy-mm-dd
+
+##### Example: For a Twitter dataset, the earliest and latest dates represented in the dataset. So, the time the oldest tweet was posted, and the time the newest tweet was posted.
 
 * Example: 2016-03-01/2016-05-31
 
