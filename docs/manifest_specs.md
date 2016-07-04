@@ -5,16 +5,17 @@ This document describes the properties of an OCDX manifest. For each property, w
 
 ## standardsVersion
 #### Definition and Purpose
-Define which manifest standard this manifest is following. This field is machine-generated.
+Defines which manifest standard this manifest is following. This field is machine-generated.
 
 #### Cardinality
 * required
 * not repeatable
 
-### Data Format
+#### Data Format
 string 
 
-* Example: v0.1.4
+#### Example
+standardsVersion: v1.4
 
 ## id
 ### Definition and Purpose
